@@ -7,7 +7,7 @@ import math
 b = 6
 a = 0
 # number of subintervals
-n = 3
+n = 1000
 deltaX = (b - a) / n
 
 def f(x):
