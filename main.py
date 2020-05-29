@@ -7,7 +7,7 @@ import math
 b = 6
 a = 0
 # number of subintervals
-n = 3
+n = 1000
 # calculates the rectangles width
 deltaX = (b - a) / n
 
@@ -66,9 +66,6 @@ def trapezoid_method(a, b, n):
 
 print("LOWER METHOD:")
 print(str(lower_rectangle_method(a, b, n)) + " units squared")
-#print("ERROR")
-#print((math.pow(math.e, 2) - 1) - lower_rectangle_method(a, b, n))
-
 print("")
 print("UPPER METHOD:")
 print(str(upper_rectangle_method(a, b, n)) + " units squared")
